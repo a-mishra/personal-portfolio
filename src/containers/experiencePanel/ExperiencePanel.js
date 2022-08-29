@@ -8,17 +8,15 @@ class ExperiencePanel extends Component {
     const theme = this.props.theme;
     return (
       <div className="experience-accord">
-          {this.props.sections.map((section) => {
-            return (
-              <>
-                {section["experiences"].map((experience) => {
-                  return (
-                    <ExperienceCard experience={experience} theme={theme} />
-                  );
-                })}
-              </>
-            );
-          })}
+        {this.props.sections.map((section) => {
+          return (
+            <>
+              {section["experiences"].map((experience) => {
+                return <ExperienceCard experience={experience} theme={theme} />;
+              })}
+            </>
+          );
+        })}
       </div>
     );
   }

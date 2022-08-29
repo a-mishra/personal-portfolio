@@ -70,7 +70,7 @@ const skills = {
       skills: [
         "⚡ Building resposive website front end using React-Redux",
         "⚡ Creating application backend in Node, Express & Laravel",
-        "⚡ Hands-on with development and workflow tools as npm, webpack, jira, bitbucket & jenkins."
+        "⚡ Hands-on with development and workflow tools as npm, webpack, jira, bitbucket & jenkins.",
       ],
       softwareSkills: [
         {
@@ -101,7 +101,7 @@ const skills = {
             color: "#44B7D4",
           },
         },
-                {
+        {
           skillName: "Materail-UI",
           fontAwesomeClassname: "simple-icons:material-ui",
           style: {
@@ -199,7 +199,7 @@ const skills = {
           style: {
             color: "#E84E31",
           },
-        }
+        },
       ],
     },
     {
@@ -210,7 +210,7 @@ const skills = {
         "⚡ Hosting and maintaining websites on virtual machine instances along with integration of databases",
         "⚡ Native to Linux enviroment.",
         "⚡ Excellent skills with databases SQL or NoSQL.",
-        "⚡ Experience in deploying failover systems."
+        "⚡ Experience in deploying failover systems.",
       ],
       softwareSkills: [
         {
@@ -353,7 +353,7 @@ const competitiveSites = {
         color: "#1F8ACB",
       },
       profileLink: "https://codeforces.com/profile/a-mishra",
-    }
+    },
   ],
 };
 
@@ -371,7 +371,7 @@ const degrees = {
         "⚡ I was also a member of in-house electonics club 'Synergy' and we developed various intresting avionics projects.",
       ],
       website_link: "https://ipu.ac.in",
-      score:"72.50 %"
+      score: "72.50 %",
     },
     {
       title: "Saraswati Bal Mandir Sr. Sec. School, Punjabi Bagh, Delhi",
@@ -384,7 +384,7 @@ const degrees = {
         "⚡ I was also a member of sports club and did participated in many inter-school sports events.",
       ],
       website_link: "http://www.sbmpb.com/school.html.html",
-      score:"82.20 %"
+      score: "82.20 %",
     },
   ],
 };
@@ -514,6 +514,28 @@ const experience = {
       title: "Work",
       experiences: [
         {
+          title: "Senior Softeare Engineer",
+          company: "PayU",
+          company_url: "https://www.linkedin.com/company/ameyocim/about/",
+          logo_path: "payu.png",
+          duration: "Feb 2022 - PRESENT",
+          location: "Gurugram, Haryana",
+          description:
+            "I am working on projects related to Contact Center Solutions. These projects involves Video KYC Solution and Cloud IVR Solution. Both of these projects were very important to breach the market during Covid pandemic.",
+          color: "#a5c311",
+        },
+        {
+          title: "Software Engineer",
+          company: "Recro",
+          company_url: "https://www.linkedin.com/company/ameyocim/about/",
+          logo_path: "recro.png",
+          duration: "Jan 2021 - Jan 2022",
+          location: "Gurugram, Haryana",
+          description:
+            "I am working on projects related to Contact Center Solutions. These projects involves Video KYC Solution and Cloud IVR Solution. Both of these projects were very important to breach the market during Covid pandemic.",
+          color: "#DA2C73",
+        },
+        {
           title: "Senior Product Engineer",
           company: "Ameyo",
           company_url: "https://www.linkedin.com/company/ameyocim/about/",
@@ -534,7 +556,7 @@ const experience = {
           description:
             "Worked as a Full Stack Developer. Developed new features to add business capabilities in Ameyo products. Developing new feature includes - discussions with Product Managers, designing [HLD + LLD], implementing it end to end.",
           color: "#9b1578",
-        }
+        },
       ],
     },
     {
@@ -556,27 +578,25 @@ const experience = {
   ],
 };
 
-
 // Your top 3 proficient stacks/tech experience
 
 const techStack = {
   viewSkillBars: true, //Set it to true to show Proficiency Section
   experience: [
     {
-      Stack: "Frontend/Design",  //Insert stack or technology you have experience in
-      progressPercentage: "70%"  //Insert relative proficiency in percentage
+      Stack: "Frontend/Design", //Insert stack or technology you have experience in
+      progressPercentage: "70%", //Insert relative proficiency in percentage
     },
     {
       Stack: "Backend",
-      progressPercentage: "80%"
+      progressPercentage: "80%",
     },
     {
       Stack: "Programming",
-      progressPercentage: "65%"
-    }
-  ]
+      progressPercentage: "65%",
+    },
+  ],
 };
-
 
 // Projects Page
 const projectsHeader = {
@@ -603,8 +623,7 @@ const contactPageData = {
   // },
   addressSection: {
     title: "Address",
-    subtitle:
-      "Sector 23, Gurugram, Haryana - 122017",
+    subtitle: "Sector 23, Gurugram, Haryana - 122017",
     avatar_image_path: "address_image.svg",
     location_map_link: "https://goo.gl/maps/TvVpZmFE8WqkwMN59",
   },

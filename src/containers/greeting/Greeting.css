@@ -1,10 +1,10 @@
 .main {
-    width: 90%;
-    padding: 20px 50px;
-    margin: 0px auto;
-    margin-top: 2rem;
-    background: #edf9febf;
-    box-shadow: 0px 0px 20px 20px #edf9febf;
+  width: 90%;
+  padding: 20px 50px;
+  margin: 0px auto;
+  margin-top: 2rem;
+  background: #edf9febf;
+  box-shadow: 0px 0px 20px 20px #edf9febf;
 }
 .greet-main {
   width: 90%;

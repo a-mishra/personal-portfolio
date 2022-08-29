@@ -10,7 +10,6 @@ import { Fade } from "react-reveal";
 import ExperienceImg from "./ExperienceImg";
 import StackProgress from "../../containers/skillProgress/skillProgress";
 
-
 // const experience = {
 // 	title: "Experience",
 // 	subtitle: "Work, Internship and Volunteership",
@@ -182,15 +181,13 @@ class Experience extends Component {
                 >
                   {experience["description"]}
                 </p>
-                 
-
               </div>
             </div>
           </Fade>
           <StackProgress />
           <ExperiencePanel sections={experience["sections"]} theme={theme} />
         </div>
-        
+
         <Footer theme={this.props.theme} onToggle={this.props.onToggle} />
         <TopButton theme={this.props.theme} />
       </div>
